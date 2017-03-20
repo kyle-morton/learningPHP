@@ -1,4 +1,5 @@
 <?php
+    //php vars start with $, no type definition needed
     $name = htmlspecialchars($_POST['name']);
     $age = (int)$_POST['age'];
 ?>
